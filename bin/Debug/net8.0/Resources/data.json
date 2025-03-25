@@ -1,0 +1,5 @@
+﻿{
+  "ipAddress": "127.0.0.1",
+  "port": "4723",
+  "browserStackIPAddress": "http://127.0.0.1:4723/wd/hub"
+}

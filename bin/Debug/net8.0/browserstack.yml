@@ -1,0 +1,18 @@
+userName: andrewtilston4
+accessKey: kEd6GhH21p1Pcx25h4mp
+projectName: Udemy Appium Framework
+buildName: Udemy Appium Framework build
+buildIdentifier: ${BUILD_NUMBER}
+
+# Set `app` to define the app that is to be used for testing. 
+# It can either take the id of any uploaded app or the path of the app directly.
+app: bs://35378f351191ae60006c81232c9715b2e13b10d3
+# app: ./LocalSample.apk #For running local tests
+
+platforms:
+  - platformName: android
+    deviceName: Google Pixel 3
+    platformVersion: 9.0
+
+consoleLogs: info
+appiumVersion: 2.15.0
