@@ -4031,3 +4031,746 @@ Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\res
 
 2025-03-25 16:30:46.2701|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
 2025-03-25 16:30:46.3024|INFO|A.b|Cleaning up adapter
+2025-03-26 16:27:03.4076|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from CLI
+2025-03-26 16:27:03.4076|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:27:23.0507|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 16:27:23.0507|INFO|A.b|0 : 
+2025-03-26 16:27:03.8871|INFO|browserstack_sdk.Program|SDK run started with id: e7d7a0ee-d9be-40fa-b499-a1d7abd2b9a1
+2025-03-26 16:27:03.9106|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:27:03.9106|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 54372
+2025-03-26 16:27:03.9584|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 16:27:06.2326|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 16:27:06.2326|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 16:27:06.2326|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 16:27:06.3869|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 16:27:06.5174|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 16:27:06.5174|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:27:06.5174|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 16:27:06.5174|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 16:27:06.5174|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 16:27:16.0106|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 16:27:16.8772|INFO|TestObservability.BuildLifeCycle|Testhub started with id: ggjhsxhaqacflg7zjp2hhqvkxqbjita8kh4n6dy1
+2025-03-26 16:27:16.8772|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: ggjhsxhaqacflg7zjp2hhqvkxqbjita8kh4n6dy1
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 16:27:21.3847|INFO|browserstack_sdk.Program|Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+||||output-warning||||Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution started
+||||output-info||||Running all tests in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+||||output-info||||   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run
+||||test-failed||||End To End Test With Different Users: Rahul Shetty (349ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||End To End Test With Different Users: Andy Tilston (349ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||Andy Tilston-Shopping Data (349ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||Rahul Shetty-Shopping Data (349ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||output-warning||||TearDown failed for test fixture RSUdemyAppium.Tests.EcomFrameworkTests
+||||output-warning||||System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!TearDown : System.NullReferenceException : Object reference not set to an instance of an object.!!!!StackTrace:    at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)~~~~!!!!--TearDown~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.CloseAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 66~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution complete
+||||test-failed||||ValidateToastMessageDisplayedIfNameNotEnteredTest (349ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||run-finish||||Failed! - Failed: 5, Passed: 0, Skipped: 0, Total: 5, Duration: [3s 975ms]||||5||||0||||0||||5||||3975.0254
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+2025-03-26 16:27:21.3847|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 16:27:21.7423|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/ggjhsxhaqacflg7zjp2hhqvkxqbjita8kh4n6dy1 to view build report
+2025-03-26 16:27:21.9884|INFO|browserstack_sdk.Program|SDK run ended with id: e7d7a0ee-d9be-40fa-b499-a1d7abd2b9a1, testhub id: ggjhsxhaqacflg7zjp2hhqvkxqbjita8kh4n6dy1
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 16:27:23.0507|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 16:27:23.0869|INFO|A.b|Cleaning up adapter
+2025-03-26 16:28:39.3848|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from CLI
+2025-03-26 16:28:39.3848|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:28:57.6188|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 16:28:57.6207|INFO|A.b|0 : 
+2025-03-26 16:28:39.7809|INFO|browserstack_sdk.Program|SDK run started with id: 29f6d0e9-e7c2-46d1-a680-f9b08189de58
+2025-03-26 16:28:39.8033|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:28:39.8033|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 47964
+2025-03-26 16:28:39.8442|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 16:28:42.0026|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 16:28:42.0026|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 16:28:42.0026|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 16:28:42.1422|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 16:28:42.2700|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 16:28:42.2700|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:28:42.2700|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 16:28:42.2700|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 16:28:42.2700|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 16:28:51.5123|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 16:28:52.0740|INFO|TestObservability.BuildLifeCycle|Testhub started with id: 92gvdvwafmumdmrayf6bf4c0sq8fn8ofii2e9xka
+2025-03-26 16:28:52.0740|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: 92gvdvwafmumdmrayf6bf4c0sq8fn8ofii2e9xka
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 16:28:56.0560|INFO|browserstack_sdk.Program|Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+||||output-warning||||Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution started
+||||output-info||||Running all tests in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+||||output-info||||   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run
+||||test-failed||||End To End Test With Different Users: Rahul Shetty (60ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||End To End Test With Different Users: Andy Tilston (60ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||Andy Tilston-Shopping Data (60ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||Rahul Shetty-Shopping Data (60ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||ValidateToastMessageDisplayedIfNameNotEnteredTest (60ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||output-warning||||TearDown failed for test fixture RSUdemyAppium.Tests.EcomFrameworkTests
+||||output-warning||||System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!TearDown : System.NullReferenceException : Object reference not set to an instance of an object.!!!!StackTrace:    at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)~~~~!!!!--TearDown~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.CloseAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 66~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution complete
+||||run-finish||||Failed! - Failed: 5, Passed: 0, Skipped: 0, Total: 5, Duration: [3s 512ms]||||5||||0||||0||||5||||3512.4744
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+2025-03-26 16:28:56.0570|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 16:28:56.4668|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/92gvdvwafmumdmrayf6bf4c0sq8fn8ofii2e9xka to view build report
+2025-03-26 16:28:56.6911|INFO|browserstack_sdk.Program|SDK run ended with id: 29f6d0e9-e7c2-46d1-a680-f9b08189de58, testhub id: 92gvdvwafmumdmrayf6bf4c0sq8fn8ofii2e9xka
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 16:28:57.6207|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 16:28:57.6567|INFO|A.b|Cleaning up adapter
+2025-03-26 16:29:38.7595|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from CLI
+2025-03-26 16:29:38.7595|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:29:57.1994|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 16:29:57.1994|INFO|A.b|0 : 
+2025-03-26 16:29:39.1818|INFO|browserstack_sdk.Program|SDK run started with id: fff9d8a8-a0fd-45ef-ba1a-d7214b95d2c4
+2025-03-26 16:29:39.1818|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:29:39.1972|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 5916
+2025-03-26 16:29:39.2315|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 16:29:41.3157|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 16:29:41.3157|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 16:29:41.3157|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 16:29:41.4547|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 16:29:41.5703|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 16:29:41.5703|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:29:41.5712|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 16:29:41.5712|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 16:29:41.5712|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 16:29:50.9722|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 16:29:51.5788|INFO|TestObservability.BuildLifeCycle|Testhub started with id: x4n8zbzysixmjqdslbbhhezdpu2qpcvuvs9bzwza
+2025-03-26 16:29:51.5788|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: x4n8zbzysixmjqdslbbhhezdpu2qpcvuvs9bzwza
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 16:29:55.6195|INFO|browserstack_sdk.Program|Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+||||output-warning||||Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution started
+||||output-info||||Running all tests in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+||||output-info||||   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run
+||||test-failed||||End To End Test With Different Users: Rahul Shetty (51ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||End To End Test With Different Users: Andy Tilston (51ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||Andy Tilston-Shopping Data (51ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||Rahul Shetty-Shopping Data (51ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||ValidateToastMessageDisplayedIfNameNotEnteredTest (51ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||output-warning||||TearDown failed for test fixture RSUdemyAppium.Tests.EcomFrameworkTests
+||||output-warning||||System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!TearDown : System.NullReferenceException : Object reference not set to an instance of an object.!!!!StackTrace:    at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)~~~~!!!!--TearDown~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.CloseAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 66~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution complete
+||||run-finish||||Failed! - Failed: 5, Passed: 0, Skipped: 0, Total: 5, Duration: [3s 597ms]||||5||||0||||0||||5||||3597.125
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+2025-03-26 16:29:55.6195|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 16:29:55.9705|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/x4n8zbzysixmjqdslbbhhezdpu2qpcvuvs9bzwza to view build report
+2025-03-26 16:29:56.2077|INFO|browserstack_sdk.Program|SDK run ended with id: fff9d8a8-a0fd-45ef-ba1a-d7214b95d2c4, testhub id: x4n8zbzysixmjqdslbbhhezdpu2qpcvuvs9bzwza
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 16:29:57.1994|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 16:29:57.2337|INFO|A.b|Cleaning up adapter
+2025-03-26 16:30:53.5480|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from CLI
+2025-03-26 16:30:53.5480|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:31:11.8367|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 16:31:11.8367|INFO|A.b|0 : 
+2025-03-26 16:30:53.9306|INFO|browserstack_sdk.Program|SDK run started with id: a78f90ec-b87d-4095-bb4b-c8e436bb2ff0
+2025-03-26 16:30:53.9489|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:30:53.9489|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 17140
+2025-03-26 16:30:53.9859|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 16:30:55.9434|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 16:30:55.9434|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 16:30:55.9459|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 16:30:56.0717|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 16:30:56.1975|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 16:30:56.1975|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:30:56.1975|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 16:30:56.1975|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 16:30:56.1975|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 16:31:05.5334|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 16:31:06.3316|INFO|TestObservability.BuildLifeCycle|Testhub started with id: m9vbvzawng2yq04iflx3kbsdr7gexabbbuvqjwkr
+2025-03-26 16:31:06.3316|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: m9vbvzawng2yq04iflx3kbsdr7gexabbbuvqjwkr
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 16:31:10.1385|INFO|browserstack_sdk.Program|Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+||||output-warning||||Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution started
+||||output-info||||Running all tests in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+||||output-info||||   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run
+||||test-failed||||End To End Test With Different Users: Rahul Shetty (54ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||output-warning||||TearDown failed for test fixture RSUdemyAppium.Tests.EcomFrameworkTests
+||||output-warning||||System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!TearDown : System.NullReferenceException : Object reference not set to an instance of an object.!!!!StackTrace:    at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)~~~~!!!!--TearDown~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.CloseAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 66~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution complete
+||||test-failed||||End To End Test With Different Users: Andy Tilston (54ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||Andy Tilston-Shopping Data (54ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||Rahul Shetty-Shopping Data (54ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||test-failed||||ValidateToastMessageDisplayedIfNameNotEnteredTest (54ms): Error Message: OneTimeSetUp: System.ArgumentNullException : Value cannot be null. (Parameter 's')~~~~!!!!Stack Trace:~~~~!!!!   at System.Int32.Parse(String s)~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 32~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||32
+||||run-finish||||Failed! - Failed: 5, Passed: 0, Skipped: 0, Total: 5, Duration: [3s 375ms]||||5||||0||||0||||5||||3375.2997
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+2025-03-26 16:31:10.1385|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 16:31:10.4935|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/m9vbvzawng2yq04iflx3kbsdr7gexabbbuvqjwkr to view build report
+2025-03-26 16:31:10.7225|INFO|browserstack_sdk.Program|SDK run ended with id: a78f90ec-b87d-4095-bb4b-c8e436bb2ff0, testhub id: m9vbvzawng2yq04iflx3kbsdr7gexabbbuvqjwkr
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 16:31:11.8367|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 16:31:11.8760|INFO|A.b|Cleaning up adapter
+2025-03-26 16:31:45.4511|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from CLI
+2025-03-26 16:31:45.4511|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:34:17.3283|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 16:34:17.3283|INFO|A.b|0 : 
+2025-03-26 16:31:45.8547|INFO|browserstack_sdk.Program|SDK run started with id: a0b2b221-6ce4-47b3-8dc7-4ef2c7256de5
+2025-03-26 16:31:45.8678|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:31:45.8678|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 9064
+2025-03-26 16:31:45.9067|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 16:31:47.9605|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 16:31:47.9605|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 16:31:47.9605|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 16:31:48.0954|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 16:31:48.2184|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 16:31:48.2184|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:31:48.2184|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 16:31:48.2184|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 16:31:48.2184|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 16:31:57.2265|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 16:31:57.8329|INFO|TestObservability.BuildLifeCycle|Testhub started with id: 113mqa7u0ukxrrzrpzh6s2fwepsbcfnphlzqwbyb
+2025-03-26 16:31:57.8329|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: 113mqa7u0ukxrrzrpzh6s2fwepsbcfnphlzqwbyb
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 16:34:15.6628|INFO|browserstack_sdk.Program|Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+||||output-warning||||Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution started
+||||output-info||||Running all tests in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+||||output-info||||   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run
+||||test-failed||||Rahul Shetty-Shopping Data (21s 765ms): Error Message:   Assert.That(ProductName.Text, Is.EqualTo(productName))~~~~!!!!  Expected string length 14 but was 18. Strings differ at index 0.~~~~!!!!  Expected: "Jordan 6 Rings"~~~~!!!!  But was:  "Air Jordan 9 Retro"~~~~!!!!  -----------^~~~~!!!!~~~~!!!!Stack Trace:~~~~!!!!   at RSUdemyAppium.Tests.EcomFrameworkTests.ScrollAndAddProductToCart(EcomFrameworkTests this, String name, String gender, String country)~~~~!!!!   at InvokeStub_EcomFrameworkTests.ScrollAndAddProductToCart(Object, Span`1)~~~~!!!!!!!!1)    at RSUdemyAppiumFramework.Page_Objects.Android.CartPage.AssertProductNameIsCorrect(String productName) in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Page Objects\Android\CartPage.cs:line 60~~~~!!!!   at RSUdemyAppium.Tests.EcomFrameworkTests.ScrollAndAddProductToCart_Patch4(EcomFrameworkTests this, String name, String gender, String country)~~~~!!!!   at InvokeStub_EcomFrameworkTests.ScrollAndAddProductToCart(Object, Span`1)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll||||0
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution complete
+||||run-finish||||Failed! - Failed: 1, Passed: 4, Skipped: 0, Total: 5, Duration: [2m 17s]||||5||||4||||0||||1||||137374.2705
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+2025-03-26 16:34:15.6628|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 16:34:16.0186|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/113mqa7u0ukxrrzrpzh6s2fwepsbcfnphlzqwbyb to view build report
+2025-03-26 16:34:16.3072|INFO|browserstack_sdk.Program|SDK run ended with id: a0b2b221-6ce4-47b3-8dc7-4ef2c7256de5, testhub id: 113mqa7u0ukxrrzrpzh6s2fwepsbcfnphlzqwbyb
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 16:34:17.3339|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 16:34:17.3627|INFO|A.b|Cleaning up adapter
+2025-03-26 16:45:11.4561|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from CLI
+2025-03-26 16:45:11.4561|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:45:30.8284|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 16:45:30.8284|INFO|A.b|0 : 
+2025-03-26 16:45:11.8304|INFO|browserstack_sdk.Program|SDK run started with id: 1a7577ae-de3f-4d60-8931-8ff04160968a
+2025-03-26 16:45:11.8425|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:45:11.8425|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 61876
+2025-03-26 16:45:11.8830|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 16:45:14.2053|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 16:45:14.2053|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 16:45:14.2053|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 16:45:14.3572|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 16:45:14.5126|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 16:45:14.5126|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:45:14.5137|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 16:45:14.5137|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 16:45:14.5137|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 16:45:24.3713|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 16:45:25.2019|INFO|TestObservability.BuildLifeCycle|Testhub started with id: fbsqmtlgx42gwe05gkwplseavfqnexndqa9tsabl
+2025-03-26 16:45:25.2019|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: fbsqmtlgx42gwe05gkwplseavfqnexndqa9tsabl
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 16:45:29.2289|INFO|browserstack_sdk.Program|Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+||||output-warning||||Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution started
+||||output-info||||Running all tests in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+||||output-info||||   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run
+||||test-failed||||End To End Test With Different Users: Rahul Shetty (52ms): Error Message: OneTimeSetUp: System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.~~~~!!!!Stack Trace:~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||75
+||||test-failed||||End To End Test With Different Users: Andy Tilston (52ms): Error Message: OneTimeSetUp: System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.~~~~!!!!Stack Trace:~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||75
+||||test-failed||||Andy Tilston-Shopping Data (52ms): Error Message: OneTimeSetUp: System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.~~~~!!!!Stack Trace:~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||75
+||||test-failed||||Rahul Shetty-Shopping Data (52ms): Error Message: OneTimeSetUp: System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.~~~~!!!!Stack Trace:~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||75
+||||test-failed||||ValidateToastMessageDisplayedIfNameNotEnteredTest (52ms): Error Message: OneTimeSetUp: System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.~~~~!!!!Stack Trace:~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)||||C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs||||75
+||||output-warning||||TearDown failed for test fixture RSUdemyAppium.Tests.EcomFrameworkTests
+||||output-warning||||System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.~~~~!!!!TearDown : System.NullReferenceException : Object reference not set to an instance of an object.!!!!StackTrace:    at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)~~~~!!!!   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)~~~~!!!!   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)~~~~!!!!--TearDown~~~~!!!!   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.CloseAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 66~~~~!!!!   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)~~~~!!!!   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+||||output-info||||NUnit Adapter 5.0.0.0: Test execution complete
+||||run-finish||||Failed! - Failed: 5, Passed: 0, Skipped: 0, Total: 5, Duration: [3s 486ms]||||5||||0||||0||||5||||3486.9161
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+2025-03-26 16:45:29.2289|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 16:45:29.5898|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/fbsqmtlgx42gwe05gkwplseavfqnexndqa9tsabl to view build report
+2025-03-26 16:45:29.8323|INFO|browserstack_sdk.Program|SDK run ended with id: 1a7577ae-de3f-4d60-8931-8ff04160968a, testhub id: fbsqmtlgx42gwe05gkwplseavfqnexndqa9tsabl
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 16:45:30.8284|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 16:45:30.8644|INFO|A.b|Cleaning up adapter
+2025-03-26 16:47:28.9484|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-03-26 16:47:28.9829|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"" --settings "C:\Users\tilst\AppData\Local\Temp\.browserstack\.runsettings" --filter "(FullyQualifiedName=RSUdemyAppium.Tests.EcomFrameworkTests.Rahul Shetty-Shopping Data)"
+2025-03-26 16:47:28.9829|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:47:28.9997|INFO|A.b|Debugger is attached, setting VSTEST_HOST_DEBUG
+2025-03-26 16:47:51.2953|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 16:47:51.2953|INFO|A.b|0 : 
+2025-03-26 16:47:29.4811|INFO|browserstack_sdk.Program|SDK run started with id: f1f2b133-6348-4ef7-a9e6-5c6772b856d0
+2025-03-26 16:47:29.5052|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:47:29.5052|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 32028
+2025-03-26 16:47:29.5462|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 16:47:32.0065|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 16:47:32.0065|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 16:47:32.0065|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 16:47:32.1429|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 16:47:32.2583|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 16:47:32.2583|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:47:32.2583|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 16:47:32.2583|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 16:47:32.2627|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 16:47:41.7693|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 16:47:42.3566|INFO|TestObservability.BuildLifeCycle|Testhub started with id: rounkgbz6rviiq0qmooc0wq9rjqetauyva1xdqvy
+2025-03-26 16:47:42.3566|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: rounkgbz6rviiq0qmooc0wq9rjqetauyva1xdqvy
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 16:47:42.7743|INFO|browserstack_sdk.Program|The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Host debugging is enabled. Please attach debugger to testhost process to continue.
+Process Id: 57700, Name: testhost
+
+2025-03-26 16:47:44.9814|INFO|browserstack_sdk.utils|Debugger attached to 57700
+2025-03-26 16:47:49.3536|INFO|browserstack_sdk.Program|Standard Output - 
+Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+
+2025-03-26 16:47:49.3536|ERROR|browserstack_sdk.Program|Standard Error - 
+An exception occurred while invoking executor 'executor://nunit3testexecutor/': Unexpected Word 'Shetty-Shopping' at position 65 in selection expression.
+Stack trace:
+   at NUnit.VisualStudio.TestAdapter.TestFilterConverter.TestFilterParser.Expect(Token[] valid) in C:\repos\nunit\nunit3-vs-adapter\src\NUnitTestAdapter\TestFilterConverter\TestFilterParser.cs:line 260
+   at NUnit.VisualStudio.TestAdapter.TestFilterConverter.TestFilterParser.ParseExpressionInParentheses() in C:\repos\nunit\nunit3-vs-adapter\src\NUnitTestAdapter\TestFilterConverter\TestFilterParser.cs:line 229
+   at NUnit.VisualStudio.TestAdapter.TestFilterConverter.TestFilterParser.ParseFilterCondition() in C:\repos\nunit\nunit3-vs-adapter\src\NUnitTestAdapter\TestFilterConverter\TestFilterParser.cs:line 129
+   at NUnit.VisualStudio.TestAdapter.TestFilterConverter.TestFilterParser.ParseFilterTerm() in C:\repos\nunit\nunit3-vs-adapter\src\NUnitTestAdapter\TestFilterConverter\TestFilterParser.cs:line 101
+   at NUnit.VisualStudio.TestAdapter.TestFilterConverter.TestFilterParser.ParseFilterExpression() in C:\repos\nunit\nunit3-vs-adapter\src\NUnitTestAdapter\TestFilterConverter\TestFilterParser.cs:line 75
+   at NUnit.VisualStudio.TestAdapter.TestFilterConverter.TestFilterParser.Parse(String input) in C:\repos\nunit\nunit3-vs-adapter\src\NUnitTestAdapter\TestFilterConverter\TestFilterParser.cs:line 63
+   at NUnit.VisualStudio.TestAdapter.NUnitTestFilterBuilder.ConvertVsTestFilterToNUnitFilter(IVsTestFilter vsFilter) in C:\repos\nunit\nunit3-vs-adapter\src\NUnitTestAdapter\NUnitTestFilterBuilder.cs:line 67
+   at NUnit.VisualStudio.TestAdapter.NUnit3TestExecutor.RunTests(IEnumerable`1 sources, IRunContext runContext, IFrameworkHandle frameworkHandle) in C:\repos\nunit\nunit3-vs-adapter\src\NUnitTestAdapter\NUnit3TestExecutor.cs:line 137
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionDecorators.SerialTestRunDecorator.RunTests(IEnumerable`1 sources, IRunContext runContext, IFrameworkHandle frameworkHandle) in /_/src/Microsoft.TestPlatform.Common/ExtensionDecorators/SerialTestRunDecorator.cs:line 57
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Execution.RunTestsWithSources.InvokeExecutor(LazyExtension`2 executor, Tuple`2 executorUriExtensionTuple, RunContext runContext, IFrameworkHandle frameworkHandle) in /_/src/Microsoft.TestPlatform.CrossPlatEngine/Execution/RunTestsWithSources.cs:line 114
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Execution.BaseRunTests.RunTestInternalWithExecutors(IEnumerable`1 executorUriExtensionMap, Int64 totalTests) in /_/src/Microsoft.TestPlatform.CrossPlatEngine/Execution/BaseRunTests.cs:line 466
+
+
+2025-03-26 16:47:49.8024|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/rounkgbz6rviiq0qmooc0wq9rjqetauyva1xdqvy to view build report
+2025-03-26 16:47:50.0928|INFO|browserstack_sdk.Program|SDK run ended with id: f1f2b133-6348-4ef7-a9e6-5c6772b856d0, testhub id: rounkgbz6rviiq0qmooc0wq9rjqetauyva1xdqvy
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 16:47:51.2953|INFO|A.b|Cleaning up adapter
+2025-03-26 16:47:51.2953|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 16:49:40.3395|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-03-26 16:49:40.3733|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"" --settings "C:\Users\tilst\AppData\Local\Temp\.browserstack\.runsettings" --filter "(FullyQualifiedName=RSUdemyAppium.Tests.EcomFrameworkTests.ValidateToastMessageDisplayedIfNameNotEnteredTest)"
+2025-03-26 16:49:40.3733|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:49:40.3733|INFO|A.b|Debugger is attached, setting VSTEST_HOST_DEBUG
+2025-03-26 16:56:20.0297|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 16:56:20.0297|INFO|A.b|0 : 
+2025-03-26 16:49:40.7940|INFO|browserstack_sdk.Program|SDK run started with id: 2ba799db-d7d6-45eb-8163-e15b112cf63c
+2025-03-26 16:49:40.8144|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:49:40.8144|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 20452
+2025-03-26 16:49:40.8525|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 16:49:43.0461|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 16:49:43.0461|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 16:49:43.0461|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 16:49:43.1841|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 16:49:43.3224|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 16:49:43.3224|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:49:43.3224|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 16:49:43.3224|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 16:49:43.3224|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 16:49:52.5849|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 16:49:53.1626|INFO|TestObservability.BuildLifeCycle|Testhub started with id: qrgdhkqu4vvlxrlbt8zpbv4wfjjdzvcfkikkucz1
+2025-03-26 16:49:53.1626|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: qrgdhkqu4vvlxrlbt8zpbv4wfjjdzvcfkikkucz1
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 16:49:53.6270|INFO|browserstack_sdk.Program|The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Host debugging is enabled. Please attach debugger to testhost process to continue.
+Process Id: 67012, Name: testhost
+
+2025-03-26 16:49:55.8214|INFO|browserstack_sdk.utils|Debugger attached to 67012
+2025-03-26 16:56:18.3772|INFO|browserstack_sdk.Program|Standard Output - 
+Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 33 s - RSUdemyAppiumFramework.dll (net8.0)
+
+2025-03-26 16:56:18.3772|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 16:56:18.7393|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/qrgdhkqu4vvlxrlbt8zpbv4wfjjdzvcfkikkucz1 to view build report
+2025-03-26 16:56:19.0055|INFO|browserstack_sdk.Program|SDK run ended with id: 2ba799db-d7d6-45eb-8163-e15b112cf63c, testhub id: qrgdhkqu4vvlxrlbt8zpbv4wfjjdzvcfkikkucz1
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 16:56:20.0297|INFO|A.b|Cleaning up adapter
+2025-03-26 16:56:20.0366|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 16:57:34.3340|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-03-26 16:57:34.3547|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"" --settings "C:\Users\tilst\AppData\Local\Temp\.browserstack\.runsettings" --filter "(FullyQualifiedName=RSUdemyAppium.Tests.EcomFrameworkTests.ValidateToastMessageDisplayedIfNameNotEnteredTest)"
+2025-03-26 16:57:34.3547|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:57:51.3604|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 16:57:51.3604|INFO|A.b|0 : 
+2025-03-26 16:57:34.7398|INFO|browserstack_sdk.Program|SDK run started with id: 43c95cf0-6a70-44dc-b06c-5232d7f04b4a
+2025-03-26 16:57:34.7398|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:57:34.7548|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 31652
+2025-03-26 16:57:34.7854|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 16:57:36.8895|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 16:57:36.8895|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 16:57:36.8895|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 16:57:37.0222|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 16:57:37.1327|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 16:57:37.1327|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:57:37.1327|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 16:57:37.1327|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 16:57:37.1327|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 16:57:46.6792|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 16:57:47.2965|INFO|TestObservability.BuildLifeCycle|Testhub started with id: xwchuhfbm8k3y4lltdiodzgnha36kxotu07b3t9p
+2025-03-26 16:57:47.2965|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: xwchuhfbm8k3y4lltdiodzgnha36kxotu07b3t9p
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 16:57:49.7058|INFO|browserstack_sdk.Program|Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed ValidateToastMessageDisplayedIfNameNotEnteredTest [34 ms]
+  Error Message:
+   OneTimeSetUp: System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.
+  Stack Trace:
+     at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+TearDown failed for test fixture RSUdemyAppium.Tests.EcomFrameworkTests
+System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+StackTrace:    at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+--TearDown
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.CloseAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 66
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 34 ms - RSUdemyAppiumFramework.dll (net8.0)
+
+2025-03-26 16:57:49.7076|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 16:57:50.0584|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/xwchuhfbm8k3y4lltdiodzgnha36kxotu07b3t9p to view build report
+2025-03-26 16:57:50.2946|INFO|browserstack_sdk.Program|SDK run ended with id: 43c95cf0-6a70-44dc-b06c-5232d7f04b4a, testhub id: xwchuhfbm8k3y4lltdiodzgnha36kxotu07b3t9p
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 16:57:51.3634|INFO|A.b|Cleaning up adapter
+2025-03-26 16:57:51.3634|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 16:59:14.4889|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-03-26 16:59:14.5100|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"" --settings "C:\Users\tilst\AppData\Local\Temp\.browserstack\.runsettings" --filter "(FullyQualifiedName=RSUdemyAppium.Tests.EcomFrameworkTests.ValidateToastMessageDisplayedIfNameNotEnteredTest)"
+2025-03-26 16:59:14.5100|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:59:33.5824|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 16:59:33.5824|INFO|A.b|0 : 
+2025-03-26 16:59:14.9120|INFO|browserstack_sdk.Program|SDK run started with id: d3b15152-eff4-4dbf-926a-de08a6b0b345
+2025-03-26 16:59:14.9343|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:59:14.9343|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 45696
+2025-03-26 16:59:14.9710|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 16:59:17.0679|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 16:59:17.0679|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 16:59:17.0679|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 16:59:17.2050|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 16:59:17.3325|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 16:59:17.3325|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:59:17.3325|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 16:59:17.3325|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 16:59:17.3325|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 16:59:27.1417|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 16:59:27.7328|INFO|TestObservability.BuildLifeCycle|Testhub started with id: 2xew2pb2nmg30j6vdz6jqbez7ooqgxps9jikymat
+2025-03-26 16:59:27.7328|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: 2xew2pb2nmg30j6vdz6jqbez7ooqgxps9jikymat
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 16:59:30.1287|INFO|browserstack_sdk.Program|Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+TearDown failed for test fixture RSUdemyAppium.Tests.EcomFrameworkTests
+System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+StackTrace:    at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+--TearDown
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.CloseAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 66
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+  Failed ValidateToastMessageDisplayedIfNameNotEnteredTest [34 ms]
+  Error Message:
+   OneTimeSetUp: System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.
+  Stack Trace:
+     at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 34 ms - RSUdemyAppiumFramework.dll (net8.0)
+
+2025-03-26 16:59:30.1287|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 16:59:30.4828|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/2xew2pb2nmg30j6vdz6jqbez7ooqgxps9jikymat to view build report
+2025-03-26 16:59:30.7174|INFO|browserstack_sdk.Program|SDK run ended with id: d3b15152-eff4-4dbf-926a-de08a6b0b345, testhub id: 2xew2pb2nmg30j6vdz6jqbez7ooqgxps9jikymat
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 16:59:33.5824|INFO|A.b|Cleaning up adapter
+2025-03-26 16:59:33.5824|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 16:59:49.3775|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-03-26 16:59:49.4030|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"" --settings "C:\Users\tilst\AppData\Local\Temp\.browserstack\.runsettings" --filter "(FullyQualifiedName=RSUdemyAppium.Tests.EcomFrameworkTests.ValidateToastMessageDisplayedIfNameNotEnteredTest)"
+2025-03-26 16:59:49.4030|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 17:00:06.3472|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 17:00:06.3472|INFO|A.b|0 : 
+2025-03-26 16:59:49.7686|INFO|browserstack_sdk.Program|SDK run started with id: b7df53a7-7c45-43dc-a9db-f4faa8428cce
+2025-03-26 16:59:49.7903|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:59:49.7903|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 67512
+2025-03-26 16:59:49.8248|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 16:59:51.9134|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 16:59:51.9134|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 16:59:51.9134|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 16:59:52.0463|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 16:59:52.1641|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 16:59:52.1641|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 16:59:52.1641|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 16:59:52.1641|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 16:59:52.1641|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 17:00:01.5354|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 17:00:02.2717|INFO|TestObservability.BuildLifeCycle|Testhub started with id: cz2spzova1t849gyhrs1dv7btgnim55wd9n1n9m9
+2025-03-26 17:00:02.2717|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: cz2spzova1t849gyhrs1dv7btgnim55wd9n1n9m9
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 17:00:04.6735|INFO|browserstack_sdk.Program|Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+TearDown failed for test fixture RSUdemyAppium.Tests.EcomFrameworkTests
+System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+StackTrace:    at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+--TearDown
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.CloseAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 66
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+  Failed ValidateToastMessageDisplayedIfNameNotEnteredTest [40 ms]
+  Error Message:
+   OneTimeSetUp: System.IO.FileNotFoundException : The configuration file 'Resources\data.json' was not found and is not optional. The expected physical path was 'C:\Resources\data.json'.
+  Stack Trace:
+     at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupGlobalVariablesFromJsonFile() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 75
+   at RSUdemyAppiumFramework.Tests.Base.AndroidBaseTest.SetupAppiumServerAndDriver() in C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\Tests\TestUtils\AndroidBaseTest.cs:line 28
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 40 ms - RSUdemyAppiumFramework.dll (net8.0)
+
+2025-03-26 17:00:04.6747|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 17:00:05.0538|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/cz2spzova1t849gyhrs1dv7btgnim55wd9n1n9m9 to view build report
+2025-03-26 17:00:05.3656|INFO|browserstack_sdk.Program|SDK run ended with id: b7df53a7-7c45-43dc-a9db-f4faa8428cce, testhub id: cz2spzova1t849gyhrs1dv7btgnim55wd9n1n9m9
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 17:00:06.3472|INFO|A.b|Cleaning up adapter
+2025-03-26 17:00:06.3472|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 17:00:13.3341|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-03-26 17:00:13.3686|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"" --settings "C:\Users\tilst\AppData\Local\Temp\.browserstack\.runsettings" --filter "(FullyQualifiedName=RSUdemyAppium.Tests.EcomFrameworkTests.ValidateToastMessageDisplayedIfNameNotEnteredTest)"
+2025-03-26 17:00:13.3686|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 17:00:13.3826|INFO|A.b|Debugger is attached, setting VSTEST_HOST_DEBUG
+2025-03-26 17:01:24.9770|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-03-26 17:01:25.0060|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"" --settings "C:\Users\tilst\AppData\Local\Temp\.browserstack\.runsettings" --filter "(FullyQualifiedName=RSUdemyAppium.Tests.EcomFrameworkTests.ValidateToastMessageDisplayedIfNameNotEnteredTest)"
+2025-03-26 17:01:25.0060|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 17:01:25.0212|INFO|A.b|Debugger is attached, setting VSTEST_HOST_DEBUG
+2025-03-26 17:03:26.4353|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 17:03:26.4353|INFO|A.b|0 : 
+2025-03-26 17:01:25.4570|INFO|browserstack_sdk.Program|SDK run started with id: 74bd18b2-ee0c-45ec-991c-6f035c2be8bb
+2025-03-26 17:01:25.4771|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 17:01:25.4771|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 12800
+2025-03-26 17:01:25.5151|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 17:01:28.0391|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 17:01:28.0391|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 17:01:28.0391|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 17:01:28.1728|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 17:01:28.3130|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 17:01:28.3146|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 17:01:28.3146|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 17:01:28.3146|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 17:01:28.3146|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 17:01:37.6821|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 17:01:38.3012|INFO|TestObservability.BuildLifeCycle|Testhub started with id: lkxuhqisqpnoiihn7djiv4izlwwvybsrxbcstogn
+2025-03-26 17:01:38.3012|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: lkxuhqisqpnoiihn7djiv4izlwwvybsrxbcstogn
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 17:01:38.7184|INFO|browserstack_sdk.Program|The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Host debugging is enabled. Please attach debugger to testhost process to continue.
+Process Id: 16000, Name: testhost
+
+2025-03-26 17:01:40.7641|INFO|browserstack_sdk.utils|Debugger attached to 16000
+2025-03-26 17:03:24.7281|INFO|browserstack_sdk.Program|Standard Output - 
+Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 20 s - RSUdemyAppiumFramework.dll (net8.0)
+
+2025-03-26 17:03:24.7281|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 17:03:25.0935|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/lkxuhqisqpnoiihn7djiv4izlwwvybsrxbcstogn to view build report
+2025-03-26 17:03:25.3569|INFO|browserstack_sdk.Program|SDK run ended with id: 74bd18b2-ee0c-45ec-991c-6f035c2be8bb, testhub id: lkxuhqisqpnoiihn7djiv4izlwwvybsrxbcstogn
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 17:03:26.4384|INFO|A.b|Cleaning up adapter
+2025-03-26 17:03:26.4384|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack
+2025-03-26 17:15:28.3152|INFO|BStack.VisualStudio.TestAdapter.BStackAdapter|nunit test started from test explorer
+2025-03-26 17:15:28.3421|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"" --settings "C:\Users\tilst\AppData\Local\Temp\.browserstack\.runsettings" --filter "(FullyQualifiedName=RSUdemyAppium.Tests.EcomFrameworkTests.ValidateToastMessageDisplayedIfNameNotEnteredTest)"
+2025-03-26 17:15:28.3421|INFO|A.b|Setting test assembly Path - C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 17:16:37.7355|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll"
+2025-03-26 17:16:37.7355|INFO|A.b|0 : 
+2025-03-26 17:15:28.7412|INFO|browserstack_sdk.Program|SDK run started with id: a0b6f140-6ec2-4668-824c-999a88b82a45
+2025-03-26 17:15:28.7609|INFO|browserstack_sdk.Program|Running SDK with args: --skip-build-browserstack, C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 17:15:28.7609|INFO|browserstack_sdk.Program|HandleAdapterProcessExit: registering process exit handler for pid: 60880
+2025-03-26 17:15:28.8007|INFO|browserstack_sdk.utils|Using dotnet: C:\Program Files\dotnet\dotnet.exe
+2025-03-26 17:15:30.9660|INFO|browserstack_sdk.Program|Detected Selenium version 4.28.0
+2025-03-26 17:15:30.9660|INFO|browserstack_sdk.Program|Detected Appium version 7.0.0
+2025-03-26 17:15:30.9660|INFO|browserstack_sdk.Program|Running for f/w nunit 4.3.2
+2025-03-26 17:15:31.1154|INFO|browserstack_sdk.Program|Detected dotnet version 9.0.201
+2025-03-26 17:15:31.2531|INFO|browserstack_sdk.Configuration|Using App : bs://35378f351191ae60006c81232c9715b2e13b10d3.
+2025-03-26 17:15:31.2531|INFO|browserstack_sdk.Program|Adapter Flow Triggered with testDllPath: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
+2025-03-26 17:15:31.2531|INFO|browserstack_sdk.Program|Setting Event Listener Path: C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\BrowserstackEventListener.addins and BrowserstackListener Dll path :: BrowserstackListener.dll
+2025-03-26 17:15:31.2531|INFO|browserstack_sdk.Program|SetupObservability: File already exists
+2025-03-26 17:15:31.2570|INFO|browserstack_sdk.utils|Architecture Info - OS: Win32NT, OSVersion: Microsoft Windows NT 10.0.22631.0, Process Arch: X64, System Arch: X64
+2025-03-26 17:15:40.5547|ERROR|Percy.Percy|Error starting percy
+GIT FOUND
+2025-03-26 17:15:41.3292|INFO|TestObservability.BuildLifeCycle|Testhub started with id: hmromynild05v7hw6ycwnxdyswrlt23wrda2gxk3
+2025-03-26 17:15:41.3292|INFO|TestObservability.BuildLifeCycle|[OBSERVABILITY] Build Started Successfully, build id: hmromynild05v7hw6ycwnxdyswrlt23wrda2gxk3
+Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-26 17:16:36.0418|INFO|browserstack_sdk.Program|Standard Output - 
+The following arguments have been ignored : "--no-build"
+VSTest version 17.13.0 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\tilst\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 13 s - RSUdemyAppiumFramework.dll (net8.0)
+
+2025-03-26 17:16:36.0418|ERROR|browserstack_sdk.Program|Standard Error - 
+
+2025-03-26 17:16:36.4083|INFO|TestObservability.BuildLifeCycle|Visit https://observability.browserstack.com/builds/hmromynild05v7hw6ycwnxdyswrlt23wrda2gxk3 to view build report
+2025-03-26 17:16:36.6412|INFO|browserstack_sdk.Program|SDK run ended with id: a0b6f140-6ec2-4668-824c-999a88b82a45, testhub id: hmromynild05v7hw6ycwnxdyswrlt23wrda2gxk3
+
+
+[percy] Heads up! The current version of @percy/cli is more than 10 releases behind! [91m1.29.3[39m -> [32m1.30.7[39m
+
+
+2025-03-26 17:16:37.7355|INFO|A.b|Cleaning up adapter
+2025-03-26 17:16:37.7423|INFO|A.b|Getting results from: C:\Users\tilst\AppData\Local\Temp\.browserstack

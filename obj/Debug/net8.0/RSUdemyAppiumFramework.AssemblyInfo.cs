@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RSUdemyAppiumFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2dc5e87a712b65d2bc6d2fb78762cad34744b07")]
 [assembly: System.Reflection.AssemblyProductAttribute("RSUdemyAppiumFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RSUdemyAppiumFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

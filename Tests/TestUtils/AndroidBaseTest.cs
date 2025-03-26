@@ -8,7 +8,7 @@ using RSUdemyAppiumFramework.Page_Objects.Android;
 using RSUdemyAppiumFramework.Utilities;
 using RSUdemyAppiumFramework.Resources;
 using Microsoft.Extensions.Configuration;
-using RSUdemyAppiumFramework.Tests.TestUtils;
+using RSUdemyAppiumFramework.Tests.TestUtils; 
 
 namespace RSUdemyAppiumFramework.Tests.Base
 {
@@ -70,7 +70,7 @@ namespace RSUdemyAppiumFramework.Tests.Base
         private GlobalVariablesData SetupGlobalVariablesFromJsonFile()
         {
             GlobalVariablesFileSetup = new ConfigurationBuilder()
-                .AddJsonFile(AppDomain.CurrentDomain.BaseDirectory + "\\Resources\\data.json").Build();
+                .AddJsonFile("appconfig.json").Build();
 
             GlobalVariablesData = new GlobalVariablesData();
             GlobalVariablesFileSetup.Bind(GlobalVariablesData);

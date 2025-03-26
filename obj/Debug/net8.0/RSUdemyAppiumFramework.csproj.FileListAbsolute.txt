@@ -250,9 +250,9 @@ C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\nunit.engine.api.dll
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\nunit.engine.core.dll
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\testcentric.engine.metadata.dll
-C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\Resources\data.json
-C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\Tests\Test Data\shoppingData.json
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\NUnit3.TestAdapter.dll
+C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\appconfig.json
+C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\Tests\Test Data\shoppingData.json
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.deps.json
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.runtimeconfig.json
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\bin\Debug\net8.0\RSUdemyAppiumFramework.dll
@@ -472,6 +472,7 @@ C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\obj\Debug
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\obj\Debug\net8.0\RSUdemyAppiumFramework.AssemblyInfoInputs.cache
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\obj\Debug\net8.0\RSUdemyAppiumFramework.AssemblyInfo.cs
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\obj\Debug\net8.0\RSUdemyAppiumFramework.csproj.CoreCompileInputs.cache
+C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\obj\Debug\net8.0\RSUdemyAppiumFramework.sourcelink.json
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\obj\Debug\net8.0\RSUdemyA.F9B1D9E1.Up2Date
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\obj\Debug\net8.0\RSUdemyAppiumFramework.dll
 C:\source\Training\Udemy\RSUdemyAppium - BSCopy\RSUdemyAppiumFramework\obj\Debug\net8.0\refint\RSUdemyAppiumFramework.dll
